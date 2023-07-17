@@ -1,0 +1,12 @@
+<p>
+  <mat-card class="vehicle-card">
+    <mat-card-header>
+      <mat-card-title>{{vehicle.brand}} {{vehicle.model}}</mat-card-title>
+      <mat-card-subtitle>{{vehicle.year}} {{vehicle.color}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-actions align="end">
+      <button mat-button (click)="editItemEvent.emit(vehicle.id)">Edit</button>
+      <button mat-button (click)="removeItemEvent.emit(vehicle.id)">Remove</button>
+    </mat-card-actions>
+  </mat-card>
+</p>
