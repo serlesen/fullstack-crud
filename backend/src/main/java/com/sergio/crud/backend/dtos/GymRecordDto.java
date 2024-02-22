@@ -8,26 +8,24 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDateTime;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 @Data
 @Getter
 @Setter
-public class VehicleDto {
+public class GymRecordDto {
 
     private Long id;
 
     @NotNull
-    private String brand;
+    private String exercise;
 
     @NotNull
-    private String model;
+    private Integer weight;
 
-    @NotNull
-    private String color;
-
-    @NotNull
-    private int year;
+    private LocalDateTime date;
 
 }

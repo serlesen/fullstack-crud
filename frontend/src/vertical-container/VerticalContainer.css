@@ -1,0 +1,13 @@
+.vertical-container {
+    margin: 5px;
+    min-height: 400px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+}
+
+.vertical-container h2 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 35px;
+}
